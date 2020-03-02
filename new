@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class PrimoProgramma {
+    
+    public static void (String [] args) {
+
+        System.out.printnl("Ciao!");
+        System.out.printnl("Eseguo la somma di due numeri.");
+        System.out.printnl("Digita entrambi i numeri sulla stessa riga:");
+
+        int n1, n2;
+
+        Scanner tastiera = new Scanner (System.in);
+
+        n1 = tastiera.nextInt();
+        n2 = tastiera.nextInt();
+
+        System.out.printnl("Ecco la somma dei due numeri:");
+        System.out.printnl(n1 + n2);
+
+    }
+}
