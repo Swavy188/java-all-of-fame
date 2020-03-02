@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class PrimoProgramma {
     
-    public static void (String [] args) {
+    public static void main(String [] args) {
 
         System.out.printnl("Ciao!");
         System.out.printnl("Eseguo la somma di due numeri.");
