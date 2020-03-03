@@ -4,9 +4,9 @@ public class PrimoProgramma {
     
     public static void main(String [] args) {
 
-        System.out.printnl("Ciao!");
-        System.out.printnl("Eseguo la somma di due numeri.");
-        System.out.printnl("Digita entrambi i numeri sulla stessa riga:");
+        System.out.println("Ciao!");
+        System.out.println("Eseguo la somma di due numeri.");
+        System.out.println("Digita entrambi i numeri sulla stessa riga:");
 
         int n1, n2;
 
@@ -15,8 +15,8 @@ public class PrimoProgramma {
         n1 = tastiera.nextInt();
         n2 = tastiera.nextInt();
 
-        System.out.printnl("Ecco la somma dei due numeri:");
-        System.out.printnl(n1 + n2);
+        System.out.println("Ecco la somma dei due numeri:");
+        System.out.println(n1 + n2);
 
     }
 }
