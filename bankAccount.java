@@ -1,6 +1,6 @@
 public class Interesse1 {
 
-      public static void main (Strings [] args){
+      public static void main (String [] args){
       
       double interesse;
       double capitale;
@@ -9,8 +9,8 @@ public class Interesse1 {
       capitale = 1324;
       interesse = capitale * tasso;
       
-      System.out.printnl ("L'interesse dopo un anno è:");
-      System.out.printnl ("interesse");
+      System.out.println ("L'interesse dopo un anno è:");
+      System.out.println ("interesse");
       
       }
 }
